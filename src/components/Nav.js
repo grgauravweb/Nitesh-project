@@ -10,6 +10,9 @@ function Nav() {
           {/* <Typography variant="h6" style={{ flexGrow: 1 }}>
             My App
           </Typography> */}
+          <Button component={Link} to="/" color="inherit">
+            Home
+          </Button>
           <Button component={Link} to="/Policy" color="inherit">
             Policy
           </Button>
